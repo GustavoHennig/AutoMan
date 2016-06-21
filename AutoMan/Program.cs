@@ -1,0 +1,29 @@
+﻿
+/*
+ * por: Gustavo Augusto Hennig
+ * http://gustavoh.co.cc
+ * 2º sem 2007
+ * Direitos Reservados
+ */
+
+
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace AutoMan
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FrmMain());
+        }
+    }
+}
